@@ -1,12 +1,9 @@
-name: xeus-cling
+
+name: vagabond
 channels:
   - conda-forge
-  - QuantStack
 dependencies:
-  - xplot=0.15.0
-  - xeus-cling=0.10.0
+  - xeus-cling=0.8.1
   - xtensor=0.21.2
   - xtensor-blas=0.17.1
   - notebook
-  - bqplot=0.11.5
-  - widgetsnbextension >=3.0.0
